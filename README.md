@@ -14,6 +14,6 @@ This is a simply jupyter notebook to visualize the results. Since the data is st
 ## Functionality and Technologies
 Scrapes capacity every 30 seconds  
 Stores capacity and timestamp in CSV  
-Does so using Selenium to wait for Javascript page underlying HTML webpage to update  
+Does so using Selenium to wait for Javascript page underlying HTML to update  
 
 Libraries: BeautifulSoup, Requests, Selenium, Pandas
