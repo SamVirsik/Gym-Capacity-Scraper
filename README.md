@@ -10,3 +10,10 @@ These are the two scraping-related files. One includes the basic functionality f
 
 ### Visualizing
 This is a simply jupyter notebook to visualize the results. Since the data is stored with its timestamp, one can very easily see trends for any given day which was tracked. 
+
+## Functionality and Technologies
+Scrapes capacity every 30 seconds
+Stores capacity and timestamp in CSV 
+Does so using selenium to wait for javascript page to update
+
+Libraries: BeautifulSoup, Requests, Selenium, Pandas
